@@ -87,11 +87,11 @@ namespace Pomodoro_Baur
             if ( pomodoro )
             {
                 int paso = (alltimeA - i);
-                if (paso < 60)
+                if (paso < 60 && paso > 0 )
                 {
                     l_time.Text = paso.ToString("00:00");
                 }
-                else if (paso == 0 )
+                else if ( paso <= 0)
                 {
                     l_time.Text = "00:00";
                     this.pomodoro = false;
@@ -107,11 +107,11 @@ namespace Pomodoro_Baur
             }else
             {
                 int paso = (alltimeB - i);
-                if (paso < 60)
+                if (paso < 60 && paso > 0 )
                 {
                     l_time.Text = paso.ToString("00:00");
                 }
-                else if (paso == 0 )
+                else if ( paso <= 0 )
                 {
                     l_time.Text = "00:00";
                     this.pomodoro = true;
