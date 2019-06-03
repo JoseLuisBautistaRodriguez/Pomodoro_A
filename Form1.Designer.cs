@@ -133,7 +133,7 @@
             this.groupBox2.Size = new System.Drawing.Size(247, 82);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Contoles";
+            this.groupBox2.Text = "Controles";
             // 
             // b_borrar
             // 
